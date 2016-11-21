@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
+import os
+fdir = os.path.dirname(os.path.realpath(__file__))
+os.chdir(fdir)
 from site import addsitedir
 addsitedir('src/')
 from order_gen import assemble
+
 
 # Get presentation frames
 frames = assemble(frames=True,config='src/config.json')
