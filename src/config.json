@@ -1,0 +1,23 @@
+{
+        "ta": 24,
+        "na": 100,
+        "sess": 2,
+        "buff": 2,
+        "head": 2,
+        "tail": 2,
+        "cases": {
+                "img": {
+                        "bank": [0,100],
+                        "phase": 2,
+                        "prefix": true,
+                        "strict": false
+                },
+                "wrd": {
+                        "bank": [0,100],
+                        "phase": 1,
+                        "prefix": false,
+                        "strict": false
+                }
+        }
+
+}

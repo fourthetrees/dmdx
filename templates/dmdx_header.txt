@@ -1,0 +1,46 @@
+<ExtendedParameters>
+<Numberofitems 200>
+<AzkiiResponses>
+<continuousrun>
+<InputDevice “keyboard”>
+<InputDevice “mouse”>
+<MapRequest +space>
+<MapNegativeResponse +button 0>
+<DefaultBackgroundColor 255255255>
+<MapPositiveResponse +V>
+<nofeedback>
+<timeout 500>
+<d 0>
+<DefaultWritingColor 1>
+<VideoMode 800, 600, 600, 8, 0>
+<EndOfParameters>
+0 <Line -7> “You will be presented with a stream of rapidly changing pictures.”,  <Line -6> “Your task is to determine when a picture IMMEDIATELY repeats itself " , <Line -5> "For example, if you are shown a stream containing the following pictures:", <Line -4> "HOUSE, TREE, APPLE, APPLE, CAR", <Line -2> “Click the mouse button after the second APPLE'.", <Line -1> "But if the picture stream is:", <Line 1> "HOUSE, CAR APPLE, TREE, APPLE", <Line 3> “Do NOT click the mouse button.”,  <Line 4> "Only click the mouse button for immediate repeats in the stream.", <Line 6> “When you are ready, you may press", <Line 7> "the SPACEBAR to begin a practice session.”;
+
+
+
+
+^666   *<ms% 350> <bmp> "p4.bmp", <ms% 350> <bmp> "w54.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p66.bmp", <ms% 350> <bmp> "w16.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p53.bmp", <ms% 350> <bmp> "w3.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p56.bmp", <ms% 350> <bmp> "w6.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p30.bmp", <ms% 350> <bmp> "w80.bmp"/ <ms% 150> /;
+-666   *<ms% 350> <bmp> "p80.bmp", <ms% 350> <bmp> "w30.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p16.bmp", <ms% 350> <bmp> "w44.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p5.bmp", <ms% 350> <bmp> "w57.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p45.bmp", <ms% 350> <bmp> "w95.bmp"/ <ms% 150> /;
+-666   *<ms% 350> <bmp> "p95.bmp", <ms% 350> <bmp> "w45.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p100.bmp", <ms% 350> <bmp> "w1.bmp"/ <ms% 150> /;
+0 <Line -7> “You should have clicked the mouse button after the repeated pictures of the:”,  <Line 2> “SOFA      &    BOW" , <Line 7> "Press the SPACEBAR to repeat the demonstration.";
+^666   *<ms% 350> <bmp> "p4.bmp", <ms% 350> <bmp> "w54.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p66.bmp", <ms% 350> <bmp> "w16.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p53.bmp", <ms% 350> <bmp> "w3.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p56.bmp", <ms% 350> <bmp> "w6.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p30.bmp", <ms% 350> <bmp> "w80.bmp"/ <ms% 150> /;
+-666   *<ms% 350> <bmp> "p80.bmp", <ms% 350> <bmp> "w30.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p16.bmp", <ms% 350> <bmp> "w44.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p5.bmp", <ms% 350> <bmp> "w57.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p45.bmp", <ms% 350> <bmp> "w95.bmp"/ <ms% 150> /;
+-666   *<ms% 350> <bmp> "p95.bmp", <ms% 350> <bmp> "w45.bmp"/ <ms% 150> /;
+^666   *<ms% 350> <bmp> "p100.bmp", <ms% 350> <bmp> "w1.bmp"/ <ms% 150> /;
+0 <Line -2>“Feel free to ask the experimenter any questions before you begin.”, <Line 2>"If you are ready, you may press the SPACEBAR", <Line 3> " to begin the experiment.";
+
