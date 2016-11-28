@@ -15,7 +15,7 @@ sessions = []
 for f in frames:
     p_sess = []
     for i in f:
-        p = ('^' if i[0] == 1 else '-', i.img, i.wrd)
+        p = ('-' if i[0] == 1 else '^', i.img, i.wrd)
         p_sess.append(p)
     sessions.append(p_sess)
 
