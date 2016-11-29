@@ -19,7 +19,7 @@ for f in frames:
         p_sess.append(p)
     sessions.append(p_sess)
 
-dmdx_ln = '{0}{2} *<ms% 350> <bmp> "p{1}", <ms% 350> <bmp> "w{2}"/ <ms% 150> /;  '
+dmdx_ln = '{0}{1} *<ms% 350> <bmp> "p{1}", <ms% 350> <bmp> "w{2}"/ <ms% 150> /;  '
 
 dmdx_intersess = '0 <Line -2> "You have finished Block {0}. You may now take a short break.", <Line 1> "Press the SPACEBAR to begin the next block of pictures.";'
 
